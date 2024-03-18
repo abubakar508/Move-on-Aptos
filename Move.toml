@@ -1,0 +1,9 @@
+[package]
+name = "Primitives"
+version = "0.0.0"
+
+[addresses]
+primitives = "0xCAFE"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "aptos-node-v1.2.0" }
